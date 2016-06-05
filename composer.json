@@ -1,0 +1,22 @@
+{
+    "name": "LaravelFramework/route-priority",
+    "description": "Package to add priority to Laravel 5 routes",
+    "keywords": ["laravel", "route", "priority"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "LaravelFramework",
+            "email": "timur.kukharenko@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.5.9",
+        "illuminate/support": "5.1.*|5.2.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "LaravelFramework\\RoutePriority\\": "src/"
+        }
+    },
+    "minimum-stability": "stable"
+}
